@@ -1,0 +1,61 @@
+export const swiggyData = [
+    {
+      id: 1,
+      name: 'Delicious Delights',
+      image: 'restaurant1.jpg',
+      description: 'A taste of heaven in every bite!',
+      rating: 4.7,
+      deliveryTime: '30-40 min',
+      deliveryCharge: '$3.99',
+      cuisine: 'Italian',
+      location: '123 Main Street',
+    },
+    {
+      id: 2,
+      name: 'Spicy Bites',
+      image: 'restaurant2.jpg',
+      description: 'Experience the spice of life.',
+      rating: 4.4,
+      deliveryTime: '25-35 min',
+      deliveryCharge: '$4.50',
+      cuisine: 'Indian',
+      location: '456 Elm Street',
+    },
+    {
+      id: 3,
+      name: 'Burger Haven',
+      image: 'restaurant3.jpg',
+      description: 'Home of the juiciest burgers in town.',
+      rating: 4.9,
+      deliveryTime: '20-30 min',
+      deliveryCharge: '$2.99',
+      cuisine: 'American',
+      location: '789 Oak Street',
+    },
+    {
+      id: 4,
+      name: 'Sushi Sensation',
+      image: 'restaurant4.jpg',
+      description: 'Delightful sushi creations to satisfy your cravings.',
+      rating: 4.6,
+      deliveryTime: '35-45 min',
+      deliveryCharge: '$5.25',
+      cuisine: 'Japanese',
+      location: '567 Pine Avenue',
+    },
+    {
+      id: 5,
+      name: 'Mediterranean Magic',
+      image: 'restaurant5.jpg',
+      description: 'Authentic Mediterranean dishes for a flavorful experience.',
+      rating: 4.5,
+      deliveryTime: '30-40 min',
+      deliveryCharge: '$4.00',
+      cuisine: 'Mediterranean',
+      location: '890 Cedar Road',
+    },
+    // Add more restaurant objects as needed
+  ];
+  
+  
+  
