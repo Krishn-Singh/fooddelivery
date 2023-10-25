@@ -1,4 +1,4 @@
-export const swiggyData = [
+export const restaurantData = [
     {
       id: 1,
       name: 'Delicious Delights',

@@ -1,29 +1,32 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
   return (
     <nav className="bg-red-600 py-4 px-4 md:px-8 lg:px-16 xl:px-24">
       <div className="flex justify-between items-center">
-        <img src="./../../public/imagesswiggylogo.png" alt="swiggy image"/>
+        <img src="../../public/images/swiggylogo.png" alt="swiggy image"/>
         <div className="text-white text-xl font-semibold">
-          <a href="/">Swiggy</a>
+          <a href="/">Foodies Bar</a>
         </div>
-
         {/* Navigation Links */}
         <div className="hidden md:flex space-x-6">
-          <a href="#" className="text-white hover:text-red-200">
+          <Link href="/" className="text-white hover:text-red-200">
             Home
-          </a>
-          <a href="#" className="text-white hover:text-red-200">
-            Orders
-          </a>
-          <a href="#" className="text-white hover:text-red-200">
+          </Link>
+          <Link to="/about" className="text-white hover:text-red-200">
+            About
+          </Link>
+          <Link to="/favourites" className="text-white hover:text-red-200">
             Favorites
-          </a>
-          <a href="#" className="text-white hover:text-red-200">
+          </Link>
+          <Link to="/Profile" className="text-white hover:text-red-200">
             Profile
-          </a>
+          </Link>
+          <Link to="/contact" className="text-white hover:text-red-200">
+            Contact
+          </Link>
         </div>
 
         {/* Mobile Menu (Hamburger Icon) */}
